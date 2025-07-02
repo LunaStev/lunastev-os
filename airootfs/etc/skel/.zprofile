@@ -1,1 +1,1 @@
-exec Hyprland
+Hyprland || startx

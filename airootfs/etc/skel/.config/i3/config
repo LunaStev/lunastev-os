@@ -1,0 +1,42 @@
+set $mod Mod4
+font pango:JetBrains Mono 10
+
+set_from_resource $bg-color	#1a1b26
+set_from_resource $inactive-bg	#1a1b26
+set_from_resource $text-color	#c0caf5
+set_from_resource $inactive-text-color #565f89
+set_from_resource $accent-color #9d7cd8
+
+client.focused		$accent-color $accentcolor $text-color $accent-color
+client.unfocused	$bg-color $bg-color $inactive-text-color $bg-color
+client.background	$bg-color
+
+new_window pixel 2
+new float	normal
+
+bindsym $mod+Return exec foot
+bindsym $mod+d exec dmenu_run
+bindsym $mod+Shift+q kill
+bindsym $mod+f fullscreen toggle
+bindsym $mod+Shift+e exec "i3-msg exit"
+
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+bar {
+	status_command i3status
+	colors {
+		background $bg-color
+		statusline $text-color
+		focused_workspace $accent-color $accent-color $bg-color
+		inactive_workspace $inactive-bg $inactive-bg $inactive-text-color
+	}
+	font pango:JetBrains Mono 10
+}

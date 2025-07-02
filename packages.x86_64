@@ -164,3 +164,9 @@ wireless_tools
 dialog
 networkmanager
 network-manager-applet
+i3
+i3status
+dmenu
+picom
+xorg-server
+xorg-xinit
