@@ -1,5 +1,7 @@
-# LunaStev OS
-**LunaStev OS** is a sleek, futuristic Linux distribution built on top of Arch Linux. It provides a fast, minimal, and visually cinematic environment with a dark and neon-styled interface. Development, hacking, and system tools are included by default. The system is structured to operate immediately after installation without additional setup.
+<img src="https://github.com/LunaStev/lunastev-os/tree/master/.github/image/logo.png" alt="drawing" width="200"/>
+
+# Noxis
+**Noxis** is a sleek, futuristic Linux distribution built on top of Arch Linux. It provides a fast, minimal, and visually cinematic environment with a dark and neon-styled interface. Development, hacking, and system tools are included by default. The system is structured to operate immediately after installation without additional setup.
 
 ## Key Features
 - **Cinematic GUI**: Modern dark-themed desktop using KDE Plasma or Hyprland (Wayland), with Nord or Dracula themes.
@@ -33,7 +35,7 @@
 > Coming soon...
 
 ### Installation
-LunaStev OS uses `archiso` for a custom live ISO experience. After booting into the ISO:
+Noxis uses `archiso` for a custom live ISO experience. After booting into the ISO:
 
 ```zsh
 sudo ./install.sh
