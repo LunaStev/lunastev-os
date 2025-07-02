@@ -1,4 +1,4 @@
-<img src="https://github.com/LunaStev/lunastev-os/tree/master/.github/image/logo.png" alt="drawing" width="200"/>
+<img src=".github/image/logo.png" alt="drawing" width="200"/>
 
 # Noxis
 **Noxis** is a sleek, futuristic Linux distribution built on top of Arch Linux. It provides a fast, minimal, and visually cinematic environment with a dark and neon-styled interface. Development, hacking, and system tools are included by default. The system is structured to operate immediately after installation without additional setup.
